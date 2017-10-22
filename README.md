@@ -13,4 +13,4 @@ There's not much more to it.
 
 ## License
 
-Released under the MIT license. See [LICENSE](https://github.com/seekaddo.github.io/blob/master/README.md) for details.
+Released under the MIT license. See [LICENSE](https://github.com/seekaddo/seekaddo.github.io/blob/master/LICENSE) for details.
