@@ -1,0 +1,369 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $gray-lightest;
+  font-size: 18px; 
+  text-rendering: optimizeLegibility;
+  transition: background-color 2s;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+  font-family: $sans;
+  line-height: 145%;
+  min-height: 100vh;
+}
+
+.body__container {
+  margin: auto;
+  max-width: 34rem;
+  padding: 1rem;
+}
+
+p {
+  font: {
+    family: $serif;
+    size: 110%;
+  }
+  line-height: 140%;
+  margin-bottom: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  color: $gray;
+  text-decoration: none;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+hr {
+  border: 0;
+  margin: {
+    bottom: 5rem;
+    left: auto;
+    right: auto;
+    top: 4rem
+  }
+  text-align: center;
+  width: 100%;
+
+  &::before {
+    color: $gray;
+    margin-left: 2rem;
+    content: "•••";
+    font-size: 1rem;
+    letter-spacing: 1rem;
+  }
+}
+
+blockquote {
+  margin: {
+    top: 3rem;
+    bottom: 3rem;
+    right: 0;
+    left: 0;
+  }
+
+  p {
+    color: $blue;
+    font: {
+      family: $sans;
+      size: 1.45rem;
+      weight: 300;
+    }
+    line-height: 2rem;
+    text-align: center;
+  }
+}
+
+img, video {
+  border-radius: 3px;
+  display: block;
+  margin: {
+    top: 3rem;
+    bottom: 3rem;
+    right: auto;
+    left: auto;
+  }
+  max-width: 100%;
+
+  @media screen and (max-width: $sm) {
+    border-radius: 0;
+    margin: {
+      left: -1rem;
+      right: -1rem;
+    }
+    max-width: calc(100% + 2rem);
+  }
+}
+
+ol, ul {
+  li {
+    font: {
+      family: $serif;
+      size: 110%;
+    }
+
+    & > p {
+      font-size: 100%;
+
+      & .reversefootnote {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+sup {
+  a {
+    border-bottom: 0;
+    color: $gray;
+    font-family: $sans;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}
+
+time {
+  color: $gray;
+  display: block;
+  font-family: $sans;
+}
+
+table {
+  border: {
+    collapse: collapse;
+    color: $gray-light;
+    spacing: 0;
+    style: solid;
+    width: 1px;
+  }
+  font-family: $serif;
+  margin: {
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    top: 2rem;
+  }
+  max-width: 100%;
+  min-height: .01%;
+  overflow-x: auto;
+  width: 100%;
+
+  tbody tr:nth-child(odd) {
+    background-color: $white;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: lighten($gray-lightest, 1);
+  }
+
+  th, td {
+    color: $black;
+    padding: {
+      bottom: 0.6rem;
+      left: 1rem;
+      right: 1rem;
+      top: 0.6rem;
+    }
+  }
+
+  th {
+    background: $white;
+    border-left: {
+      color: $gray-light;
+      style: solid;
+      width: 1px;
+    }
+    font-weight: 600;
+  }
+
+  td {
+    border-left: {
+      color: $gray-light;
+      style: solid;
+      width: 1px;
+    }
+    border-top: {
+      color: $gray-light;
+      style: solid;
+      width: 1px;
+    }
+    text-align: left;
+  }
+}
+
+footer {
+  color: $gray;
+  font: {
+    family: $sans;
+    size: 0.8rem;
+    weight: 400;
+  }
+}
+
+.back {
+  color: $gray-light;
+  font: {
+    family: $mono;
+    size: .85rem;
+    weight: 600;
+  }
+  left: 1rem;
+  letter-spacing: 2px;
+  position: fixed;
+  text-transform: uppercase;
+
+  @media screen and (max-width: $sm) {
+    position: absolute;
+  }
+}
+
+.intro {
+  &__head {
+    color: $black-dark;
+    font: {
+      size: 1.25rem;
+      weight: 700;
+    }
+    letter-spacing: 2px;
+  }
+
+  &__sub {
+    color: $black;  
+    font-size: 1rem;
+  }
+}
+
+.group {
+  border-top: {
+    color: $gray-light;
+    style: solid;
+    width: 1px;
+  }
+  display: flex;
+
+  @media screen and (max-width: $sm) {
+    flex-direction: column;
+  }
+}
+
+.group__title {
+  flex: 1.5;
+  padding: {
+    right: 2rem;
+    top: .5rem;
+  }
+
+  span {
+    border-top: {
+      color: $orange;
+      style: solid;
+      width: 1px;
+    }
+    font: {
+      family: $mono;
+      size: .85rem;
+      weight: 600;
+    }
+    letter-spacing: 2px;
+    padding-top: .65rem;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: $sm) {
+    margin-bottom: .5rem;
+  }
+}
+
+.group__list {
+  flex: 8.5;
+
+  @media screen and (max-width: $sm) {
+    border-top: {
+      color: $gray-light;
+      style: solid;
+      width: 1px;
+    }
+  }
+}
+
+.post {
+  border-bottom: {
+    color: $gray-light;
+    style: solid;
+    width: 1px;
+  }
+  color: $black;
+  display: flex;
+  font: {
+    family: $sans;
+    size: .9rem;
+  }
+  padding: {
+    bottom: 0.64rem;
+    top: 0.64rem;
+  }
+  text-decoration: none;
+  width: 100%;
+
+  &__title {
+    font-weight: 500;
+  }
+
+  &__date {
+    color: $gray;
+    margin-right: 1.5rem;
+  }
+}
+
+.archive {
+  color: $gray;
+  display: flex;
+  font: {
+    family: $sans;
+    size: .9rem;
+    weight: 500;
+  }
+  justify-content: flex-end;
+  padding: {
+    bottom: 0.64rem;
+    top: 0.64rem;
+  }
+  text-decoration: none;
+  width: 100%;
+}
+
+.blog {
+  &__head {
+    color: $black;
+    font: {
+      size: 1.25rem;
+      weight: 700;
+    }
+    letter-spacing: 2px;
+  }
+}
+
+.error {
+  background: {
+    image: url(../img/whale.jpeg);
+    size: cover;
+    position: center center;
+    repeat: no-repeat;
+  }
+  height: 100vh;
+  width: 100vw;
+}
