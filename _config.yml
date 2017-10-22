@@ -1,0 +1,36 @@
+title: Dennis Addo
+description: "Secure internet for all."
+url: "https://seekaddo.me"
+author: "Dennis Addo"
+keywords: "vulhub,secure coding,kali linux,code,startups,technology,tech"
+github: seekaddo
+twitter: tomfme
+email: dennis_addo@aol.com
+
+exclude: ["README.md", "CNAME", "LICENSE", ".gitignore"]
+
+permalink: pretty
+timezone: Europe/Vienna
+
+plugins: []
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "base"
