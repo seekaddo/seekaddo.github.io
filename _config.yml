@@ -4,7 +4,7 @@ url: "https://www.seekaddo.me"
 author: "Dennis Addo"
 keywords: "vulhub,secure coding,kali linux,code,startups,technology,tech"
 github: seekaddo
-twitter: tomfme
+twitter:
 email: dennis_addo@aol.com
 
 exclude: ["README.md", "CNAME", "LICENSE", ".gitignore"]
