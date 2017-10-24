@@ -11,9 +11,9 @@ email: dennis_addo@aol.com
 
 
 
-github_username:      seekaddo
-facebook_username:    seekaddo
-stackoverflow_username: seekaddo
+#github_username:      seekaddo
+#facebook_username:    seekaddo
+#stackoverflow_username: "users/5644874/seek-addo"
 
 
 # Includes an icon in the footer for each username you enter
@@ -26,8 +26,8 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  twitter:
-  stackoverflow: "users/5644874/seek-addo" # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: "users/5644874/seek-addo"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
