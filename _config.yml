@@ -10,16 +10,9 @@ twitter:
 email: dennis_addo@aol.com
 
 
----
-layout: default
-comments: true
-# other options
----
-
-
-#github_username:      seekaddo
-#facebook_username:    seekaddo
-#stackoverflow_username: "users/5644874/seek-addo"
+github_username:      seekaddo
+facebook_username:    seekaddo
+stackoverflow_username: "users/5644874/seek-addo"
 
 
 # Includes an icon in the footer for each username you enter
