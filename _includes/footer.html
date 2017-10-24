@@ -1,3 +1,31 @@
 <footer class="text-center mar-tb-6">
 © {{'now' | date: '%Y' }} {{ site.author }}, unless otherwise noted.
+  <ul>
+  
+    {% if site.github_username %}
+  <li>
+    <a href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github"></i> GitHub
+    </a>
+  </li>
+{% endif %}
+    
+    
+    {% if site.facebook_username %}
+  <li>
+    <a href="https://www.facebook.com/{{ site.facebook_username }}">
+      <i class="fa fa-facebook"></i> Facebook
+    </a>
+  </li>
+{% endif %}
+    
+    {% if site.stackoverflow_username %}
+  <li>
+    <a href="https://www.stackoverflow.com/{{ site.stackoverflow_username }}">
+      <i class="fa fa-stack-overflow"></i> Stackoverflow
+    </a>
+  </li>
+{% endif %}
+    
+  </ul>
 </footer>
