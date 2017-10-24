@@ -10,6 +10,13 @@ twitter:
 email: dennis_addo@aol.com
 
 
+---
+layout: default
+comments: true
+# other options
+---
+
+
 github_username:      seekaddo
 facebook_username:    seekaddo
 stackoverflow_username: seekaddo
