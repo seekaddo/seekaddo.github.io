@@ -1,4 +1,11 @@
 
+# use a logo image in your nav bar.
+use_logo: true
+
+# logo image to use. logo images are constrained at 50px in height.
+logo: images/apple-touch-icon.png
+#favicon.ico
+
 title: Seek Addo
 description: "Secure internet for all."
 url: "https://www.seekaddo.me"
@@ -37,3 +44,7 @@ defaults:
       type: "pages"
     values:
       layout: "base"
+      
+      
+      
+image_path: images
