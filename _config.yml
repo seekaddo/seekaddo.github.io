@@ -7,6 +7,10 @@ github: seekaddo
 twitter:
 email: dennis_addo@aol.com
 
+use_logo: true
+
+logo: images/apple-touch-icon.png
+
 exclude: ["README.md", "CNAME", "LICENSE", ".gitignore"]
 
 permalink: pretty
