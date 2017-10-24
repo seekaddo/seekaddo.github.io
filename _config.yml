@@ -1,8 +1,13 @@
-title: Seek Addo
-use_logo: true
+favicon:
+  small: /images/favicon-16x16.png
+  medium: /images/apple-touch-icon.png
+  apple_touch_icon: /images/apple-touch-icon.png
+  safari_pinned_tab: /images/apple-touch-icon.png
 
+use_logo: true
 logo: images/apple-touch-icon.png
 
+title: Seek Addo
 description: "Secure internet for all."
 url: "https://www.seekaddo.me"
 author: "Dennis Addo"
