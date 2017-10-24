@@ -4,8 +4,8 @@ favicon:
   apple_touch_icon: /images/apple-touch-icon.png
   safari_pinned_tab: /images/apple-touch-icon.png
 
-use_logo: true
-logo: images/apple-touch-icon.png
+#use_logo: true
+#logo: images/apple-touch-icon.png
 
 title: Seek Addo
 description: "Secure internet for all."
