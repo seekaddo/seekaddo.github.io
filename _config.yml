@@ -27,6 +27,25 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
+footer-links-active:
+  rss: false
+  facebook: true
+  email: true
+  twitter: false
+  google-plus: false
+  github: true
+  reddit: false
+  linkedin: false
+  xing: false
+  stackoverflow: true
+  snapchat: false
+  instagram: false
+  youtube: false
+  spotify: false
+  telephone: false
+  steam: false
+  twitch: false
+  yelp: false
 
 
 
