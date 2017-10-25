@@ -1,5 +1,6 @@
 <footer class="text-center mar-tb-6">
-  <ul>
+  <div class="float_center">
+  <ul class="child">
   {% if site.github_username %}
   <li>
     <a href="https://github.com/{{ site.github_username }}">
@@ -27,5 +28,6 @@
 {% endif %}
   
   </ul>
+    </div>
 © {{'now' | date: '%Y' }} {{ site.author }}, unless otherwise noted.  
 </footer>
