@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/seekaddo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://seekaddo.me
+  * I am seekaddo (https://keybase.io/seekaddo) on keybase.
+  * I have a public key ASC1tGLmfjL5fGV69Ya6RHPTek6QND3vTOsAC4_2vFq3Zgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b5b462e67e32f97c657af586ba4473d37a4e90343def4ceb000b8ff6bc5ab7660a",
+      "host": "keybase.io",
+      "kid": "0120b5b462e67e32f97c657af586ba4473d37a4e90343def4ceb000b8ff6bc5ab7660a",
+      "uid": "a0fe0f344de7a153c9696fa628969719",
+      "username": "seekaddo"
+    },
+    "merkle_root": {
+      "ctime": 1508963074,
+      "hash": "f3613985ee6ba666a9b0ba8f46460b36841eae7eac596f404ec398582be34b34dafa9062cb7be22f97cf4db54aa3de5cf4f2b5c8efe525d42bc24c641193ceb7",
+      "hash_meta": "357569ba88cf0efeb72dc016e8ffea014efb6e594048cc1fd336af63f223b9fe",
+      "seqno": 1629642
+    },
+    "service": {
+      "hostname": "seekaddo.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1508963082,
+  "expire_in": 504576000,
+  "prev": "d3d04838b303c988bc5170f31009a4be90171658b208f0f065f70749cba451ba",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgtbRi5n4y+XxlevWGukRz03pOkDQ970zrAAuP9rxat2YKp3BheWxvYWTFA0N7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjViNDYyZTY3ZTMyZjk3YzY1N2FmNTg2YmE0NDczZDM3YTRlOTAzNDNkZWY0Y2ViMDAwYjhmZjZiYzVhYjc2NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjViNDYyZTY3ZTMyZjk3YzY1N2FmNTg2YmE0NDczZDM3YTRlOTAzNDNkZWY0Y2ViMDAwYjhmZjZiYzVhYjc2NjBhIiwidWlkIjoiYTBmZTBmMzQ0ZGU3YTE1M2M5Njk2ZmE2Mjg5Njk3MTkiLCJ1c2VybmFtZSI6InNlZWthZGRvIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA4OTYzMDc0LCJoYXNoIjoiZjM2MTM5ODVlZTZiYTY2NmE5YjBiYThmNDY0NjBiMzY4NDFlYWU3ZWFjNTk2ZjQwNGVjMzk4NTgyYmUzNGIzNGRhZmE5MDYyY2I3YmUyMmY5N2NmNGRiNTRhYTNkZTVjZjRmMmI1YzhlZmU1MjVkNDJiYzI0YzY0MTE5M2NlYjciLCJoYXNoX21ldGEiOiIzNTc1NjliYTg4Y2YwZWZlYjcyZGMwMTZlOGZmZWEwMTRlZmI2ZTU5NDA0OGNjMWZkMzM2YWY2M2YyMjNiOWZlIiwic2Vxbm8iOjE2Mjk2NDJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2Vla2FkZG8ubWUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMyJ9LCJjdGltZSI6MTUwODk2MzA4MiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJkM2QwNDgzOGIzMDNjOTg4YmM1MTcwZjMxMDA5YTRiZTkwMTcxNjU4YjIwOGYwZjA2NWY3MDc0OWNiYTQ1MWJhIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RABVC8EH2GtU0LW8GBCMWGlhVWb66Bc0akprci2Rz+hBEjB4cKhT5Mt4kxPp+HE6vVvDEu0nRkMhhVdjcv8HQTAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINtRC5N5mJcPbJTCJ5ZZxOOxuJV/5H2AR0alEnUKi++0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/seekaddo
+
+==================================================================
