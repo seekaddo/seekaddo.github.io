@@ -1,6 +1,6 @@
 ## Hello, GitHub!
 
-Thanks for checking out the innards of [my website](http://seekaddo.me/). A fork from [tmm](tmm.github.io)
+Thanks for checking out the innards of [my website](http://seekaddo.me/). A fork from [tmm](https://github.com/tmm)
 Here's what's going on:
 
 - [GitHub Pages](https://pages.github.com) graciously hosts my site.
